@@ -1,0 +1,22 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+:root {
+  --white: #FFFFFF;
+  --main-blue:#096BB4;
+  --blue:#033F85;
+  --gray:#F1F5F6;
+  --dark-gray:#2F3338;
+  --gray-text:#242424;
+  --yellow:#FFCB00;
+  --white-blue: #F1F5F6;
+  --blue:#05203F;
+  --second-blue: #073161;
+}
