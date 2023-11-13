@@ -1,0 +1,11 @@
+.cards {
+  margin-top: -150px;
+  display: flex;
+  justify-content: center;
+  gap:20px;
+}
+
+.cards:last-child {
+  font-weight: 700;
+  font-size: 28px;
+}
