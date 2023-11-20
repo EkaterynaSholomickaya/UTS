@@ -1,7 +1,11 @@
 import Header from './components/header/Header';
 import Cards from './components/cards/Cards';
 import Main from './components/main/Main';
-import Title from './components/title/Title';
+
+import Data from './components/data/Data';
+import Facts from './components/facts/Facts';
+import Mission from './components/mission/Mission';
+import Values from './components/values/Values';
 
 
 function App() {
@@ -11,7 +15,10 @@ function App() {
       <Header />
       <Main />
       <Cards />
-      <Title color={'red'} align={'center'} colorLine={'yellow'}> lkmlklkmlkdfgdfgdfgm</Title>
+      <Data />
+      <Facts />
+      <Mission />
+      <Values />
 
 
     </div>

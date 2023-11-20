@@ -1,0 +1,26 @@
+.mission {
+  margin-bottom: 120px;
+}
+
+.mission__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.cards:last-child {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.mission__text {
+  max-width: 45vw;
+  color: var(--dark-gray, #2F3338);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.mission__text span {
+  font-weight: 700;
+}
