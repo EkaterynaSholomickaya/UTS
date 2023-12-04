@@ -1,0 +1,62 @@
+.accordion {
+  width: 100%;
+}
+
+.accordin__item {
+
+}
+.accordion__header {
+  position: relative;
+  padding: 22px 60px;
+  margin-bottom: 30px;
+  width: 100%;
+  background-color: var(--white-blue);
+  border: 2px solid var(--grey);
+  color: var(--dark-grey, #2F3338);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 148.023%;
+}
+.accordion__header:hover {
+  cursor: pointer;
+}
+
+
+.accordion__body {
+  padding: 50px ;
+  padding-top: 0;
+  color: var(--grey-text, #242424);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.accordion__body::first-line {
+  padding: 0;margin: 0;
+}
+
+.accordin__collapse {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s;
+}
+
+.accordin__collapse.open {
+  height: auto;
+}
+
+.according__arrow {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  display: block;
+  width: 30px;
+  height: 17px;
+  fill: var(--grey-text)  ;
+  transform: translateY(-50%);
+  transition: all 0.3s;
+}
+
+.according__arrow.active {
+  transform: translateY(-50%) rotate(180deg);
+  fill:green;
+}
