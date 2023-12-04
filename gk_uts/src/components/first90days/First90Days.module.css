@@ -1,0 +1,43 @@
+
+.first90Days {
+  padding: 120px;
+  background-color: var(--second-blue);
+}
+
+.first90days__item {
+  margin-bottom: 50px;
+  color: var(--white, #FFF);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 148.023%;
+}
+
+.first90days__item span {
+  font-weight: 700;
+} 
+
+.title__container {
+  margin-bottom: 100px;
+}
+
+.first90days__caption {
+  margin: 20px 0 50px 50px;
+
+}
+
+.first90days__list {
+  list-style-type: decimal;
+}
+
+.first90days__sublist {
+  list-style-type: circle;
+  margin-left: 70px;
+  margin-bottom: 25px;
+}
+.first90days__sublist li{
+  margin-bottom: 25px;
+}
+
+.first90days__sublist li {
+  margin-bottom: 25px;
+}
