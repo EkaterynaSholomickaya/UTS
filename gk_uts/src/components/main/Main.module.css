@@ -1,5 +1,5 @@
 .main {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.96) 1.21%, rgba(255, 255, 255, 0.00) 100%), url(../../assets/img/mainimg.jpg) no-repeat, lightgray 50% / cover no-repeat;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.96) 1.21%, rgba(255, 255, 255, 0.00) 100%), url(../../assets/img/mainimg.jpg) no-repeat, lightgrey 50% / cover no-repeat;
   /* block-size: cover; */
   min-height: 836px;
   background-size: cover;
@@ -14,7 +14,7 @@ padding-top: 148px;
 }
 
 .main__title {
-  color: var(--gray-text);
+  color: var(--grey-text);
   font-family: Inter;
   font-size: 64px;
   font-style: normal;
@@ -74,5 +74,5 @@ padding-top: 148px;
   background-color: var(--second-blue);
 }
 .main__link:active span {
-  color:var(--gray);
+  color:var(--grey);
 }

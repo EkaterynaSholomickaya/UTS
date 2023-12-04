@@ -15,13 +15,13 @@ function Header() {
           <nav className={styles.header__nav}>
             <ul>
               <li>
-                <a href="https://habr.com/ru/companies/ruvds/articles/460793/" className={styles.header__link}>о компании</a>
+                <a href="#about" className={styles.header__link}>о компании</a>
               </li>
               <li>
-                <a href="#" className={styles.header__link}>работа в етс</a>
+                <a href="#work" className={styles.header__link}>работа в етс</a>
               </li>
               <li>
-                <a href="#" className={[styles.header__link, styles.header__link_btn].join(' ')}>вопросы</a>
+                <a href="#questions" className={[styles.header__link, styles.header__link_btn].join(' ')}>вопросы</a>
               </li>
             </ul>
           </nav>

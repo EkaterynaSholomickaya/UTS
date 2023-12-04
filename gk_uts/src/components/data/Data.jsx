@@ -4,7 +4,7 @@ import Title from '../title/Title';
 
 
 
-const Data = () => <div className={styles.data}>
+const Data = () => <div id='data' className={styles.data}>
 
   <div className={`container `}>
     <div className={styles.data__container}>

@@ -14,7 +14,7 @@ const Main = () =>
           работы, адаптироваться к новой среде, правилам и
           погрузиться в корпоративную культуру <span> ЕТС</span>
         </p>
-        <a href="#!" className={styles.main__link}>
+        <a href="#data" className={styles.main__link}>
           <span>
             Узнать больше
           </span>

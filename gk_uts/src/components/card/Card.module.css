@@ -7,6 +7,12 @@
   justify-content: center;
   color:var(--white);
   position:relative;
+  transition: all .3s;
+
+}
+
+.card:hover {
+  margin-top: -20px;
 }
 
 .card__img {

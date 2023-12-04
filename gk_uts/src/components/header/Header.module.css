@@ -10,7 +10,7 @@
 }
 
 .header__link {
-  color: var(--dark-gray);
+  color: var(--dark-grey);
   font-size: 18px;
   font-weight: 700;
   line-height: normal;
@@ -31,7 +31,7 @@ column-gap: 60px;
     left: 0;
     width: 0;
     height: 3px;
-    background-color: var(--dark-gray);
+    background-color: var(--dark-grey);
     content: "";
     transition: width 0.3s ease-out;
 
@@ -57,8 +57,16 @@ column-gap: 60px;
   background-color: var(--second-blue);
   margin-left: 75px;
 }
+
 .header__link_btn:hover {
-color:var(--gray);
+  background-color: var(--blue);
+}
+.header__link_btn:active {
+  color: var(--grey);
+}
+
+.header__link_btn:hover {
+color:var(--grey);
 
 }
 .header__link_btn:hover:after,
