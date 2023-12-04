@@ -1,0 +1,60 @@
+.slider {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  height: 600px;
+ 
+}
+
+.slide {
+  flex:1;
+  flex-grow: 1;
+  height: 100%;
+  overflow: hidden;
+  transition: all .5s;
+  opacity: 60%;
+
+}
+
+.active {
+  flex-grow: 25;
+  opacity: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  offset-position: center;
+}
+
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+
+.prev {
+  margin-right: 7px;
+}
+
+.next {
+  margin-left: 7px;
+}
+
+.prev:hover *, .next:hover *{
+  fill: var(--main-blue);
+}
+.prev:active *, .next:active *{
+  fill: var(--second-blue);
+}
+
+.prev *, .next * {
+  transition: all .3s;
+
+}
