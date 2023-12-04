@@ -1,0 +1,125 @@
+.firstDay {
+  padding: 120px 0;
+  background-color: var(--second-blue);
+  margin-bottom: 120px;
+}
+
+.title__container {
+  margin-bottom: 90px;
+}
+
+
+.firstDay__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 70px;
+  margin-bottom: 120px;
+}
+
+.list {
+  color: var(--white, #FFF);
+}  
+
+.list__title {
+  font-size: 32px;
+  width: 100%;
+  margin-bottom: 55px;
+  position: relative;
+  line-height: 163%;
+  font-weight: 700;
+}
+
+.list__title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -25px;
+  width: 130px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.list__title span {
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.list__text {
+  font-weight: 300;
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 150%;
+}
+.list__text ul {
+  margin-top: 25px;
+  margin-left: 20px;
+
+}
+.list__text ul li {
+  font-weight: 300;
+  margin-bottom: 10px;
+  list-style: inside;
+ 
+}
+
+.firstDay__title {
+  position: relative;
+  color: var(--white);
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+
+
+.firstDay__title {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.firstDay__title:before {
+  content: "";
+
+  background-color: #fff;
+  width: 300px;
+  height: 2px;
+  position: absolute;
+  top: 25px;
+  margin-left: -350px;
+}
+
+.firstDay__title:after {
+  content: "";
+  background-color: #fff;
+  width: 300px;
+  height: 2px;
+  position: absolute;
+  top: 25px;
+  margin-left: 50px;
+}
+
+
+.firstDay__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  color:var(--white);
+  font-size: 36px;
+}
+
+.firstDay__item {
+  flex: 0 0 45%;
+}
+
+.firstDay__row ul li {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: normal;
+  list-style: inside;
+  margin-bottom: 10px;
+}
+.firstDay__row ul {
+  margin-top: 25px;
+  margin-left: 30px;
+  line-height: 100%;
+}
