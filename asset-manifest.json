@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/UTS/static/css/main.d9ae49b2.css",
-    "main.js": "/UTS/static/js/main.ff9ade2b.js",
+    "main.css": "/UTS/static/css/main.1fa0457e.css",
+    "main.js": "/UTS/static/js/main.ae1c1b79.js",
     "static/media/10.jpg": "/UTS/static/media/10.a01657f86e352781ba2b.jpg",
     "static/media/14.jpg": "/UTS/static/media/14.ab6308681d93fa7ab4ed.jpg",
     "static/media/15.jpg": "/UTS/static/media/15.f60fe286cbe43d4bb997.jpg",
@@ -39,11 +39,11 @@
     "static/media/prev.svg": "/UTS/static/media/prev.0027dee99eda5206427d24730ec80895.svg",
     "static/media/next.svg": "/UTS/static/media/next.20e42ce751331bef0ff6a0298dfa4ef1.svg",
     "static/media/arrow.svg": "/UTS/static/media/arrow.27c73128f710b272f8020cf1a922e208.svg",
-    "main.d9ae49b2.css.map": "/UTS/static/css/main.d9ae49b2.css.map",
-    "main.ff9ade2b.js.map": "/UTS/static/js/main.ff9ade2b.js.map"
+    "main.1fa0457e.css.map": "/UTS/static/css/main.1fa0457e.css.map",
+    "main.ae1c1b79.js.map": "/UTS/static/js/main.ae1c1b79.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9ae49b2.css",
-    "static/js/main.ff9ade2b.js"
+    "static/css/main.1fa0457e.css",
+    "static/js/main.ae1c1b79.js"
   ]
 }
