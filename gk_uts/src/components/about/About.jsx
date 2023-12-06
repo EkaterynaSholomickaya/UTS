@@ -2,7 +2,6 @@ import Title from '../title/Title';
 import Slider from '../../components/slider/Slider';
 import styles from './About.module.css';
 
-
 import React from "react";
 
 import photo1 from '../../assets/img/1.jpg';
@@ -25,11 +24,7 @@ import photo17 from '../../assets/img/17.jpg';
 import photo18 from '../../assets/img/18.jpg';
 
 
-
-
 const About = () => {
-
-
 
   return (
     <div id='about' className={styles.about}>

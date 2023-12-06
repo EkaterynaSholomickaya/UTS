@@ -60,3 +60,13 @@
   transform: translateY(-50%) rotate(180deg);
   fill:green;
 }
+
+
+li {
+  font-style: 24px;
+  font-weight: 300;
+}
+
+span {
+  font-weight: 700;
+}
