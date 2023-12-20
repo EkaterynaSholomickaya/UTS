@@ -191,3 +191,12 @@
       display: none;
     }
 }
+
+.footer__links_img:hover * {
+  fill: var(--main-blue);
+}
+
+.nextSmall:hover * {
+  fill: var(--main-blue);
+}
+/* "homepage": "https://EkaterynaSholomickaya.github.io/UTS",*/
