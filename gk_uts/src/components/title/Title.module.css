@@ -1,11 +1,21 @@
 .title {
- display: flex;
- flex-direction: column;
- justify-content: center;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
+.title *{
+  display: inline-block;
+}
+
+.title span {
+  color:var(--main-blue) ;
+}
+
 .center {
+  text-align: center;
   align-items: center;
 }
 

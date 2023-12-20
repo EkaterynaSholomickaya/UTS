@@ -4,11 +4,12 @@
   justify-content: space-between;
   align-items: stretch;
   width: 100%;
-  height: 600px;
- 
+  max-height: 600px;
+  height: 30vw;
 }
 
 .slide {
+  user-select: none;
   flex:1;
   flex-grow: 1;
   height: 100%;
@@ -32,6 +33,7 @@
 
 
 .actions {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,14 +49,113 @@
   margin-left: 7px;
 }
 
-.prev:hover *, .next:hover *{
+.prevSmall,.nextSmall {
+  position: absolute;
+  display: none;
+}
+
+
+.prev:hover, .next:hover,
+.prevSmall:hover,
+.nextSmall:hover {
+  cursor:pointer;
+}
+.prev:hover *, .next:hover *,
+.prevSmall:hover *,
+.nextSmall:hover *{
   fill: var(--main-blue);
 }
-.prev:active *, .next:active *{
+.prev:active *, .next:active * ,
+.prevSmall:active *,
+.nextSmall:active *{
   fill: var(--second-blue);
 }
 
-.prev *, .next * {
+.prev *, .next *, .prevSmall *, .nextSmall * {
   transition: all .3s;
+
+}
+
+.disable:hover {
+  cursor:auto;
+}
+
+.disable:hover * {
+  fill: var(--grey);
+}
+
+
+@media (max-width:1480px) {
+.slider {
+    height: 500px;
+  }
+}
+
+
+@media (max-width:1280px) {
+.slider {
+    max-height: 450px;
+  }
+}
+
+@media (max-width:1080px) {
+.slider {
+    max-height: 400px;
+  }
+} 
+
+@media (max-width:970px) {
+  .slider {
+    max-height: 400px;
+  }
+.prev, .next {
+  display: none;
+}
+
+.active {
+  flex-grow: 70;
+}
+
+.prevSmall,
+.nextSmall {
+display: block;
+bottom: -50px;
+left: 50%;
+transform: translatex(10%)
+}
+.actions {
+  gap: 2px;
+}
+
+.prevSmall {
+  margin-right: -50%;
+  transform: translatex(-110%)
+}
+
+}
+
+@media (max-width:670px) {
+.slider {
+    height: 350px;
+  }
+  /* .nextSmall, .prevSmall {
+    height: 50px;
+    width: auto;
+  } */
+}
+
+@media (max-width:480px) {
+.slider {
+    height: 250px;
+}
+.active {
+  flex-grow: 100;
+}
+
+}
+@media (max-width:370px) {
+.slider {
+    height: 200px;
+}
 
 }

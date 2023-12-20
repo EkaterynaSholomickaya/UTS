@@ -1,8 +1,9 @@
 
 .first90Days {
-  padding: 120px;
+  padding: 8% 0;
   background-color: var(--second-blue);
 }
+
 
 .first90days__item {
   margin-bottom: 50px;
@@ -22,7 +23,6 @@
 
 .first90days__caption {
   margin: 20px 0 50px 50px;
-
 }
 
 .first90days__list {
@@ -38,6 +38,54 @@
   margin-bottom: 25px;
 }
 
-.first90days__sublist li {
-  margin-bottom: 25px;
+
+@media (max-width:1480px) {
+  .title__container {
+      margin-bottom: 10%;
+    }
+  .first90days__item, .first90days__item *{
+    font-size: 22px;
+  }
 }
+
+
+@media (max-width:1280px) {
+  .first90days__item,
+    .first90days__item * {
+      font-size: 20px;
+    }
+}
+
+@media (max-width:1080px) {
+  .first90days__item,
+    .first90days__item * {
+      font-size: 18px;
+    }
+
+}
+
+@media (max-width:670px) {
+  .first90days__item,
+    .first90days__item * {
+      font-size: 16px;
+    }
+    .first90days__sublist {
+      margin: 0 0 20px 20px;
+    }
+    .first90days__list {
+      margin: 0 0 0px 10px;
+    }
+    .first90days__caption {
+      margin: 10px 0 20px 20px;
+    }
+.first90days__item {
+  margin-bottom: 20px;
+
+}
+/* 
+.title__container {
+  margin-bottom: 20px;
+} */
+}
+
+@media (max-width:480px) {}

@@ -27,4 +27,40 @@
 
 .mission__title_container {
   margin-right: 150px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1400px) {
+.mission {
+    margin-bottom: 10%;
+  }
+}
+@media (max-width: 1080px) {
+  .mission__text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 870px) {
+  .mission__text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 540px) {
+  .mission__text {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width:1280px) {
+  .mission__container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .mission__text {
+    max-width: 100%;
+  }
 }

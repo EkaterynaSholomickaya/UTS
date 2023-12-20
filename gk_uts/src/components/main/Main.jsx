@@ -1,10 +1,18 @@
 import styles from './Main.module.css';
 import arrowImg from '../../assets/icons/main/arrow.svg';
 
+import swipeup from '../../assets/icons/swipeup.svg';
+
 
 const Main = () =>
   <section className={styles.main}>
     <div className="container">
+      <div className={styles.main__arrow}>
+        <a href="#logo" className={styles.arrow}>
+          <img src={swipeup} alt="arrow" className={styles.arrow_img} />
+        </a>
+      </div>
+
       <div className={styles.main__column}>
         <h1 className={styles.main__title}>
           Добро пожаловать на борт ГК ЕТС!

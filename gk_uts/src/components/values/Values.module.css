@@ -7,3 +7,21 @@
 .values__title{
 margin-bottom: 70px;
 }
+
+@media (max-width:1240px) {
+.values {
+    margin-bottom: 100px;
+  }
+.values__title {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width:1080px) {
+  .values {
+    margin-bottom: 70px;
+  }
+
+  .values__title {
+    margin-bottom: 30px;
+  }
+}

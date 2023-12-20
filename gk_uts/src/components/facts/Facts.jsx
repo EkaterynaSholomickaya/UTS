@@ -60,7 +60,7 @@ const Facts = () =>
         </div>
         <div className={`${styles.facts__item}`}>
           <div className={styles.facts__item_numbers}> <span>$</span>  466 200 000</div>
-          <p className={styles.facts__item_caption}>квадратных метров  <br /> складов</p>
+          <p className={styles.facts__item_caption}>выручка    <br /> в 2022г.</p>
         </div>
         <div className={`${styles.facts__item}`}>
           <div className={styles.facts__item_img}><img src={check} alt="check" /></div>

@@ -19,27 +19,14 @@ height: 100px;
 
 .title__container {
   margin: 120px auto 60px;
-
 }
-
-/* 
-.prev {
-  background: url('../../assets/icons/prev.svg') center / 100% 100% no-repeat;
-
-}
-.next {
-  background: url('../../assets/icons/next.svg') center / 100% 100% no-repeat;
-
-}
-.next:active {
-  background: url('../../assets/icons/nextActive.svg') center / 100% 100% no-repeat;
-
-}
-.prev:active {
-  background: url('../../assets/icons/prevActive.svg') center / 100% 100% no-repeat;
-
-} */
 
 .actions {
   display: flex;
+}
+
+@media (max-width:1440px) {
+  .title__container{
+    margin: 7% auto 10%;
+  }
 }

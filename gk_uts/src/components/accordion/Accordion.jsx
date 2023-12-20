@@ -14,9 +14,13 @@ export const Accordion = ({ faqList }) => {
             onClick={() => (id === openId ? setId(null) : setId(id))}
             faqItem={faqItem}
             isOpen={id === openId}
-            key={id} />
+            key={id}
+          />
         )
       })}
     </ul>
   )
 }
+
+
+// disable = { id === faqList.length - 1 ? 'right' : id === 0 ? 'left' : null}

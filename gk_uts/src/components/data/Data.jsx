@@ -8,7 +8,9 @@ const Data = () => <div id='data' className={styles.data}>
 
   <div className={`container `}>
     <div className={styles.data__container}>
-      <Title> Немного фактов </Title>
+      <div className={styles.title__container}>
+        <Title> Немного фактов </Title>
+      </div>
       <p className={styles.data__text}>
         С момента своего основания в 1994 году, <span>ГК ЕТС</span>  (Единая Торговая Система) непрерывно развивалась, становясь крупнейшим дистрибьютором на рынке России и СНГ.
         <br />

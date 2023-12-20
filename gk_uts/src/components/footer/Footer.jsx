@@ -14,7 +14,7 @@ const Footer = () =>
       <div className={styles.footer__line}>
         <div className={styles.footer__wrapper}>
           <img src={logo} alt="logo" />
-          <p className={styles.footer__texy} >Крупнейший поставщик химического сырья и пищевых ингредиентов в России и странах СНГ </p>
+          <p className={styles.footer__text} >Крупнейший поставщик химического сырья и пищевых ингредиентов в России и странах СНГ </p>
         </div>
         <div className={styles.footer__links}>
           <img src={linked} alt="linked" />

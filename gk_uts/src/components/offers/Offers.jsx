@@ -18,16 +18,12 @@ const Offers = () =>
     <div className="container">
       <div className={styles.offers__container}>
         <div className={styles.offers__text_container}>
-          <Title align='center'> Что мы можем предложить? </Title>
+          <Title align='center'> 8 причин работать в <span>ЕТС</span> : </Title>
         </div>
         <p className={styles.offers__text}>
           <span>ЕТС </span>сегодня – это международная команда. Находясь в стадии роста, мы предлагаем нашим сотрудникам широкие возможности профессиональной и личной реализации.
         </p>
       </div>
-
-      <h2 className={styles.offers__title}>
-        8 причин работать в <span>ЕТС</span> :
-      </h2>
 
       <div className={styles.offers__table}>
         <div className={styles.offer}>

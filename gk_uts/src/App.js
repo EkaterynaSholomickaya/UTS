@@ -1,7 +1,6 @@
 import Header from './components/header/Header';
 import Cards from './components/cards/Cards';
 import Main from './components/main/Main';
-
 import Data from './components/data/Data';
 import Facts from './components/facts/Facts';
 import Mission from './components/mission/Mission';
@@ -14,11 +13,14 @@ import About from './components/about/About';
 import Questions from './components/questions/Questions';
 import Footer from './components/footer/Footer';
 
+import swipeup from './assets/icons/swipeup.svg';
+
 
 function App() {
 
   return (
     <div className="App">
+      {/* <img src={swipeup} alt="arrow" className='arrow' /> */}
       <Header />
       <Main />
       <Cards />

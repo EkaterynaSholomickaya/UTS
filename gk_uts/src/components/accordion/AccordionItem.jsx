@@ -5,9 +5,11 @@ import { ReactComponent as ArrowIcon } from '../../assets/icons/arrow.svg';
 
 
 
-export const AccordionItem = ({ faqItem, onClick, isOpen }) => {
+export const AccordionItem = ({ faqItem, onClick, isOpen, disable }) => {
 
   const itemRef = useRef(null);
+  // console.log(disable);
+
 
   return (
     <li className={styles.accordin__item} >

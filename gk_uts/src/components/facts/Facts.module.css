@@ -1,14 +1,50 @@
 .facts {
   background-color: var(--second-blue);
   margin-bottom: 120px;
-
 }
 
 .facts__numbers {
-    padding: 85px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 220px);
+  padding: 85px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 220px);
+}
+@media (max-width: 1400px) {
+.facts {
+    margin-bottom: 10%;
+  }
+}
+@media (max-width: 1240px) {
+  .facts__numbers {
+    padding: 85px 45px 55px;
+    grid-template-rows: repeat(2, 200px);
+  }
+}
+@media (max-width: 1080px) {
+  .facts__numbers {
+    padding: 75px 5px 20px;
+    grid-template-rows: repeat(2, 170px);
+  }
+}
+@media (max-width: 650px) {
+  .facts__numbers {
+    padding: 55px 5px 10px;
+    grid-template-rows: repeat(2, 130px);
+  }
+}
+@media (max-width: 540px) {
+  .facts__numbers {
+    padding: 25px 5px 0px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 130px);
+  }
+}
+@media (max-width: 470px) {
+  .facts__numbers {
+    padding: 15px 5px 0px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 130px);
+  }
 }
 
 .facts__fact {
@@ -28,6 +64,47 @@
   text-align: center;
 }
 
+@media (max-width: 1240px) {
+  .facts__number {
+    font-size: 55px;
+  }
+  .facts__caption {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 870px) {
+  .facts__number {
+      font-size: 48px;
+    }
+  .facts__caption {
+      font-size: 16px;
+    }
+}
+
+@media (max-width: 780px) {
+  .facts__number {
+      font-size: 42px;
+  }
+  .facts__caption {
+    font-size: 14px;
+  }
+}
+@media (max-width: 650px) {
+  .facts__number {
+    font-size: 38px;
+  }
+  .facts__caption {
+    font-size: 11px;
+  }
+}
+@media (max-width: 540px) {
+  .facts__caption {
+    font-size: 11px;
+  }
+}
+
+
 .top {
    border-top: 1px solid #1E4470;
 }
@@ -40,13 +117,18 @@
 .right {
    border-right: 1px solid #1E4470;
 }
+@media (max-width: 540px) {
+  .top, .left, .bottom, .right  {
+  border: 0px solid #1E4470;
+  }
+}
 
 .facts__items {
   display: grid;
   width: 100%;
   grid-template-columns:  1fr 1fr;
   grid-template-rows: repeat(2, 220px);
-
+  padding-bottom: 20px;
 }
 
 
@@ -76,6 +158,125 @@ color:var(--yellow);
     font-size: 28px;
 }
 
+.facts__item_img {
+  margin-right: 10px;
+  min-width: 30px;
+  height: auto;
+}
+
+@media (max-width: 1480px) {
+.facts__items {
+    grid-template-columns: 600px 1fr;
+    grid-template-rows: repeat(2, 180px); 
+  }
 .facts__item_bigCaption {
-  margin-left: 20px;
+  font-size: 24px;
+  line-height: 135%;
+  }
+}
+
+
+@media (max-width: 1240px) {
+  .facts__items {
+    grid-template-columns: 500px 1fr;
+    grid-template-rows: repeat(2, 150px);
+  }
+  .facts__item_numbers {
+    font-size: 44px;
+  }
+  .facts__item_caption  {
+    font-size: 18px;
+  }
+  .facts__item_bigCaption {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1080px) {
+.facts__items {
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: repeat(2, 140px);
+  }
+.facts__item_numbers {
+    font-size: 40px;
+  }
+.facts__item_caption {
+    font-size: 16px;
+  }
+.facts__item_bigCaption {
+    font-size: 18px;
+  }
+.facts__item_img {
+  width: 25px;
+  }
+}
+
+@media (max-width: 870px) {
+.facts__items {
+    grid-template-columns: 360px 1fr;
+    grid-template-rows: repeat(2, 140px);
+  }
+  .facts__item_numbers {
+    font-size: 36px;
+  }
+  .facts__item_caption {
+    font-size: 14px;
+  }
+  .facts__item_bigCaption {
+    font-size: 14px;
+  }
+  .facts__item_img {
+    width: 20px;
+  }
+}
+
+@media (max-width: 780px) {
+.facts__items {
+    grid-template-columns:  1fr;
+    grid-template-rows: repeat(4, 80px);
+    align-items:start;
+    justify-items: start;
+  }
+.facts__number {
+    font-size: 42px;
+  }
+
+.facts__caption {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 650px) {
+  .facts__number {
+    font-size: 38px;
+  }
+
+  .facts__caption {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 540px) {
+  .facts__caption {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 420px) {
+  .facts__item_numbers {
+      font-size: 28px;
+    }
+    .facts__item_caption {
+      margin-left: 5px;
+    }
+}
+@media (max-width: 370px) {
+  .facts__item_numbers {
+    font-size: 22px;
+  }
+  .facts__item_caption {
+    font-size: 10px;
+  }
+  .facts__item_bigCaption {
+    font-size: 10px;
+  }
 }
