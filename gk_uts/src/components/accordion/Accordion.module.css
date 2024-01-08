@@ -3,8 +3,8 @@
 }
 
 .accordin__item {
-
 }
+
 .accordion__header {
   position: relative;
   padding: 22px 60px;
@@ -17,8 +17,27 @@
   font-weight: 700;
   line-height: 148.023%;
 }
+
+.accordion__header.blue *, .accordion__header.blue {
+  background-color: var(--blue);
+  color: var(--white, #ffffff);
+}
+
+.accordion__header.blue {
+
+  border: 2px solid var(--main-blue);
+}
+
+.accordion__header.blue * {
+  margin-bottom: 0;
+}
+
 .accordion__header:hover {
   cursor: pointer;
+}
+
+.accordion__header.blue .according__arrow * {
+  fill: var(--white);
 }
 
 
@@ -31,7 +50,8 @@
   line-height: 150%;
 }
 .accordion__body::first-line {
-  padding: 0;margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .accordin__collapse {
@@ -51,14 +71,16 @@
   display: block;
   width: 30px;
   height: 17px;
-  fill: var(--grey-text)  ;
   transform: translateY(-50%);
   transition: all 0.3s;
 }
 
+.according__arrow * {
+  fill: var(--dark-grey);
+}
+
 .according__arrow.active {
   transform: translateY(-50%) rotate(180deg);
-  fill:green;
 }
 
 
@@ -87,7 +109,7 @@ span {
 
 @media (max-width:1280px) {
 .accordion__header {
-    padding: 10px 40px 10px 10px;
+    padding: 10px 40px 10px 30px;
     font-size: 20px;
   }
   .accordion__body {
@@ -103,14 +125,16 @@ span {
 }
 
 @media (max-width:1080px) {
-
+.accordion__header {
+    padding-left: 20px ;
+  }
 }
 
 @media (max-width:870px) {}
 
 @media (max-width:480px) {
 .accordion__header {
-    padding: 5px 40px 5px 5px;
+    padding: 5px 35px 5px 10px;
     font-size: 16px;
   }
 
@@ -127,3 +151,5 @@ span {
     width: 15px;
   }
 }
+
+

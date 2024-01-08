@@ -30,7 +30,7 @@ const faqList = [
   }
 ];
 
-const FirstMonth = () => <div id='work' className={styles.firstDay}>
+const FirstMonth = () => <div className={styles.firstDay}>
 
   <div className={`container `}>
     <div className={styles.title__container}>

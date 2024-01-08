@@ -13,14 +13,11 @@ import About from './components/about/About';
 import Questions from './components/questions/Questions';
 import Footer from './components/footer/Footer';
 
-import swipeup from './assets/icons/swipeup.svg';
-
 
 function App() {
 
   return (
     <div className="App">
-      {/* <img src={swipeup} alt="arrow" className='arrow' /> */}
       <Header />
       <Main />
       <Cards />
@@ -35,7 +32,6 @@ function App() {
       <About />
       <Questions />
       <Footer />
-
     </div>
   );
 }

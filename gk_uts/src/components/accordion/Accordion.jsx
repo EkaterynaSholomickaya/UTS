@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import styles from './Accordion.module.css';
 import { AccordionItem } from './AccordionItem';
 
-export const Accordion = ({ faqList }) => {
-  const [openId, setId] = useState(null);
+export const Accordion = ({ faqList, blue }) => {
 
+  const [openId, setId] = useState(null);
 
   return (
     <ul className={styles.accordion}>
@@ -15,6 +15,7 @@ export const Accordion = ({ faqList }) => {
             faqItem={faqItem}
             isOpen={id === openId}
             key={id}
+            blue={blue}
           />
         )
       })}

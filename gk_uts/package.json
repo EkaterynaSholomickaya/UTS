@@ -1,7 +1,7 @@
 {
   "name": "gk_uts",
   "version": "0.1.0",
-  "homepage": "https://EkaterynaSholomickaya.github.io/gk_uts.git",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

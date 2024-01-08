@@ -31,9 +31,7 @@ const Main = () => {
     <div className="container">
       <div className={styles.main__arrow}>
         {backToTop && <button onClick={scrollUp}>
-          {/* <a href="#" className={styles.arrow}> */}
           <img src={swipeup} alt="arrow" className={styles.arrow} />
-          {/* </a> */}
         </button>}
       </div>
 

@@ -1,6 +1,7 @@
 body {
   font-family: 'Inter', sans-serif;
   color: var (--grey-text, #242424);
+  overflow-x: hidden;
 }
 
 body * {
@@ -36,11 +37,13 @@ h2 {
 }
 
 .container {
+  /* overflow: hidden; */
   position: relative;
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
 }
+
 @media screen and (max-width: 1480px) {
   .container {
       max-width: 1240px;

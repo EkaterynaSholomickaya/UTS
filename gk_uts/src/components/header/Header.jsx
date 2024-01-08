@@ -1,7 +1,6 @@
 // import './header.css';
 import styles from './Header.module.css';
 import logoImg from '../../assets/icons/logo.png';
-import { ReactComponent as Icon } from '../../assets/icons/icon.svg';
 import { useState } from 'react';
 
 
@@ -19,7 +18,7 @@ function Header() {
             <nav className={`${styles.header__nav} ${isOpen ? styles.active : ''}`} >
               <ul>
                 <li>
-                  <a href="#about" className={styles.header__link}>о компании</a>
+                  <a href="#data" className={styles.header__link}>о компании</a>
                 </li>
                 <li>
                   <a href="#work" className={styles.header__link}>работа в етс</a>
@@ -32,7 +31,6 @@ function Header() {
             <button className={styles.header__menu_button} onClick={() => setIsOpen(!isOpen)}>
               <div className={`${styles.icon__top} ${isOpen ? styles.active : ''}`} > </div>
               <div className={`${styles.icon__bottom} ${isOpen ? styles.active : ''}`} > </div>
-              {/* <Icon /> */}
             </button>
           </div>
         </div >
