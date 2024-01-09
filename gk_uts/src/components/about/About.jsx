@@ -24,6 +24,20 @@ import photo17 from '../../assets/img/17.jpg';
 import photo18 from '../../assets/img/18.jpg';
 
 
+
+import '../../styles/index.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-flip';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
+// import required modules
+import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
+
 const About = () => {
 
   return (
@@ -35,6 +49,64 @@ const About = () => {
             align='center'>
             О жизни в компании
           </Title>
+        </div>
+
+        <div className="swip_c">
+          <Swiper
+            effect={'flip'}
+            grabCursor={true}
+            pagination={true}
+            navigation={true}
+            modules={[EffectFlip, Pagination, Navigation]}
+            className="mySwiper"
+          >
+
+            <SwiperSlide>
+              <img src={photo1} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo2} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo3} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo4} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo5} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo6} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo7} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo8} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo9} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo10} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo11} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo12} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo13} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo14} alt="photo1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={photo15} alt="photo1" />
+            </SwiperSlide>
+          </Swiper>
         </div>
 
         <Slider>
