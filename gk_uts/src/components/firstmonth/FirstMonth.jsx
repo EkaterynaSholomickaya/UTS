@@ -1,5 +1,4 @@
 import styles from './FirstMonth.module.css';
-import Title from '../title/Title';
 import { Accordion } from '../accordion/Accordion';
 
 
@@ -30,20 +29,17 @@ const faqList = [
   }
 ];
 
-const FirstMonth = () => <div className={styles.firstDay}>
+const FirstMonth = () => <div className={styles.firstMonth}>
 
-  <div className={`container `}>
-    <div className={styles.title__container}>
-      <Title align='center'>План для первого месяца работы в компании: </Title>
-    </div>
+  <div className={`container`}>
 
-    <p className={styles.firstDay__text}>
+    <p className={styles.firstMonth__text}>
       Если вы приняты на работу в одном из наших филиалов: запланирована командировка в головной офис для знакомства с командой
     </p>
-    <p className={styles.firstDay__text}>
+    <p className={styles.firstMonth__text}>
       Познакомиться, узнать коллег, в том числе из других отделов, с которыми будет более плотное взаимодействие.
     </p>
-    <p className={styles.firstDay__text}>
+    <p className={styles.firstMonth__text}>
       Посмотреть вводный тренинг для новых сотрудников ГК ЕТС
       <span>*  Раз в квартал мы проводим его в очном и онлайн-режиме, мы обязательно пришлем приглашение!</span>
     </p>
@@ -54,15 +50,15 @@ const FirstMonth = () => <div className={styles.firstDay}>
     </div>
     <div className={styles.block}></div>
 
-    <p className={styles.firstDay__text}>
+    <p className={styles.firstMonth__text}>
       Через 2 недели состоится встреча с руководителем  и HR для обсуждения целей и задач на испытательный срок
       <span>* Важно уточнить у руководителя приоритеты по целям, задать все интересующие вопросы. Если в процессе работы Вы понимаете, что не все цели выполнимы обязательно инициируйте встречу самостоятельно.</span>
     </p>
 
-    <p className={styles.firstDay__text}>
+    <p className={styles.firstMonth__text}>
       Ознакомиться с системой планирования и отчётности
     </p>
-    <p className={styles.firstDay__text}>
+    <p className={styles.firstMonth__text}>
       Подробно вести отчетность о проделанной работе
     </p>
 

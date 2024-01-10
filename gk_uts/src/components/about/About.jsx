@@ -51,13 +51,13 @@ const About = () => {
           </Title>
         </div>
 
-        <div className="swip_c">
+        <div className={styles.swiper__container}>
           <Swiper
             effect={'flip'}
             grabCursor={true}
             pagination={true}
             navigation={true}
-            modules={[EffectFlip, Pagination, Navigation]}
+            modules={[EffectFlip, Navigation, Pagination]}
             className="mySwiper"
           >
 

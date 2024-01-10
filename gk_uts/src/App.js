@@ -12,6 +12,7 @@ import First90Days from './components/first90days/First90Days';
 import About from './components/about/About';
 import Questions from './components/questions/Questions';
 import Footer from './components/footer/Footer';
+import First from './components/first/First';
 
 
 function App() {
@@ -26,11 +27,13 @@ function App() {
       <Mission />
       <Values />
       <Offers />
-      <FirstDay />
+      <First />
+      {/* <FirstDay />
       <FirstMonth />
-      <First90Days />
+      <First90Days /> */}
       <About />
       <Questions />
+
       <Footer />
     </div>
   );

@@ -7,14 +7,13 @@ import { ReactComponent as ArrowIcon } from '../../assets/icons/arrow.svg';
 
 export const AccordionItem = ({ faqItem, onClick, isOpen, blue }) => {
 
-  console.log(blue);
 
   const itemRef = useRef(null);
 
   return (
-    <li className={styles.accordin__item} >
+    <li className={`${styles.accordion__item} ${faqItem.size ? styles.big : ''}`} >
       <button
-        className={`${styles.accordion__header} ${blue ? styles.blue : ''} `}
+        className={`${styles.accordion__header} ${blue ? styles.blue : ''} ${faqItem.color === 'white' ? styles.white : ''} ${faqItem.color === 'blue' ? styles.darckblue : ''}`}
         onClick={() => onClick()}>
         {faqItem.q}
         <ArrowIcon className={`${styles.according__arrow} ${isOpen ? styles.active : ""}`} />

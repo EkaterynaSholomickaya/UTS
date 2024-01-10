@@ -101,12 +101,14 @@
 @media (max-width:1080px) {
 .slider {
     max-height: 400px;
+
   }
 } 
 
 @media (max-width:970px) {
   .slider {
     max-height: 400px;
+    display: none;
   }
 .prev, .next {
   display: none;

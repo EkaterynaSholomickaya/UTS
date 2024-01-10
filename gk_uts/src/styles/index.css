@@ -121,8 +121,9 @@ body {
 
 .swiper-slide img {
   display: block;
+  object-fit: cover;
   width: 100%;
 }
 .swiper-pagination {
-  margin-bottom: -10px;
+  margin-bottom: -20px;
 }

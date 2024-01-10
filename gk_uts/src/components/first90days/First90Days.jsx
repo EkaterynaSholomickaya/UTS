@@ -6,14 +6,7 @@ import Title from '../title/Title';
 const First90Days = () => <div className={styles.first90Days}>
 
   <div className={`container `}>
-    <div className={styles.title__container}>
-      <Title
-        align='center'
-        color='white'
-        colorLine='yellow'>
-        Первые 90 дней работы в компании:
-      </Title>
-    </div>
+
     <div className={styles.first90days__item}>
       <span> Устный экзамен по продуктам</span>
     </div>

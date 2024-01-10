@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './Accordion.module.css';
 import { AccordionItem } from './AccordionItem';
 
-export const Accordion = ({ faqList, blue }) => {
+export const Accordion = ({ faqList, blue, size }) => {
 
   const [openId, setId] = useState(null);
 
@@ -23,5 +23,3 @@ export const Accordion = ({ faqList, blue }) => {
   )
 }
 
-
-// disable = { id === faqList.length - 1 ? 'right' : id === 0 ? 'left' : null}

@@ -1,5 +1,6 @@
-.first90Days {
-  background-color: var(--second-blue);
+.firstMonth {
+  
+  padding: 3% 0;
 }
 
 .title__container {
@@ -9,7 +10,7 @@
   margin-bottom: 70px;
 }
 
-.firstDay__text {
+.firstMonth__text {
   padding: 22px 60px;
   margin-bottom: 30px;
   font-size: 28px;
@@ -18,7 +19,7 @@
   border:3px solid var(--grey);
 }
 
-.firstDay__text span {
+.firstMonth__text span {
   display: block;
   font-size: 20px;
   font-weight: 300;
@@ -33,12 +34,12 @@
 
     margin-bottom: 10%;
   }
-.firstDay__text {
+.firstMonth__text {
     padding: 22px 40px;
     margin-bottom: 25px;
     font-size: 24px;
   }
-.firstDay__text span {
+.firstMonth__text span {
   font-size: 18px;
   margin-left: 25px;
 }
@@ -46,24 +47,24 @@
 
 
 @media (max-width:1280px) {
-.firstDay__text {
+.firstMonth__text {
     padding: 22px 30px;
     margin-bottom: 20px;
     font-size: 20px;
   }
-.firstDay__text span {
+.firstMonth__text span {
   font-size: 16px;
   margin-left: 20px;
 }
 }
 
 @media (max-width:1080px) {
-.firstDay__text {
+.firstMonth__text {
     padding: 16px 20px;
     margin-bottom: 15px;
     font-size: 16px;
   }
-.firstDay__text span {
+.firstMonth__text span {
   font-size: 14px;
   margin-left: 10px;
   margin-top: 10px;
