@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './Accordion.module.css';
 import { AccordionItem } from './AccordionItem';
 
-export const Accordion = ({ faqList, blue, size }) => {
+export const Accordion = ({ faqList, blue }) => {
 
   const [openId, setId] = useState(null);
 

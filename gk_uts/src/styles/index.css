@@ -1,7 +1,10 @@
 body {
   font-family: 'Inter', sans-serif;
   color: var (--grey-text, #242424);
-  overflow-x: hidden;
+  overflow: auto;
+}
+body.modalOpen {
+  overflow: hidden;
 }
 
 body * {
@@ -127,3 +130,4 @@ body {
 .swiper-pagination {
   margin-bottom: -20px;
 }
+

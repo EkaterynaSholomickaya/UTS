@@ -1,13 +1,19 @@
-// import './header.css';
 import styles from './Header.module.css';
 import logoImg from '../../assets/icons/logo.png';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+
 
 
 function Header() {
+
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    document.body.classList.toggle('modalOpen', isOpen);
+  }, [isOpen])
+
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} header`}>
 
       <div className="container">
         <div className={styles.header__row}>
@@ -15,24 +21,48 @@ function Header() {
             <img src={logoImg} alt="logo" />
           </div>
           <div>
-            <nav className={`${styles.header__nav} ${isOpen ? styles.active : ''}`} >
+
+            <nav
+              className={`${styles.header__nav} ${isOpen ? styles.active : ''}`}
+              onClick={e => e.stopPropagation()} >
               <ul>
-                <li>
-                  <a href="#data" className={styles.header__link}>о компании</a>
+                <li className={styles.header__link_first}>
+                  <a href="#data"
+                    className={[styles.header__link].join(' ')}
+                    onClick={(e) => setIsOpen(!isOpen)}>
+                    о компании
+                  </a>
                 </li>
                 <li>
-                  <a href="#work" className={styles.header__link}>работа в етс</a>
+                  <a href="#work"
+                    className={styles.header__link}
+                    onClick={(e) => setIsOpen(!isOpen)}>
+                    работа в етс</a>
                 </li>
                 <li>
-                  <a href="#questions" className={[styles.header__link, styles.header__link_btn].join(' ')}>вопросы</a>
+                  <a href="#questions"
+                    className={[styles.header__link, styles.header__link_btn].join(' ')}
+                    onClick={(e) => setIsOpen(!isOpen)}>вопросы</a>
                 </li>
               </ul>
             </nav>
-            <button className={styles.header__menu_button} onClick={() => setIsOpen(!isOpen)}>
-              <div className={`${styles.icon__top} ${isOpen ? styles.active : ''}`} > </div>
-              <div className={`${styles.icon__bottom} ${isOpen ? styles.active : ''}`} > </div>
-            </button>
+            <div
+              className={`${styles.header__bg} ${isOpen ? styles.activeBg : ''}`}
+              onClick={
+                (e) => {
+                  setIsOpen(!isOpen);
+                }}>
+            </div>
           </div>
+          <button
+            className={styles.header__menu_button}
+            onClick={(e) => {
+              setIsOpen(!isOpen);
+            }}>
+            <div className={`${styles.icon__top} ${isOpen ? styles.active : ''}`} > </div>
+            <div className={`${styles.icon__bottom} ${isOpen ? styles.active : ''}`} > </div>
+          </button>
+
         </div >
       </div >
     </header >
