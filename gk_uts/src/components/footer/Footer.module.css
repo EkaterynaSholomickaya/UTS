@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--second-blue);
+  background: var(--second-blue);
   padding: 50px;
   color: var(--white);
   font-weight: 300;

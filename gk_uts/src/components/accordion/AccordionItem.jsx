@@ -11,7 +11,9 @@ export const AccordionItem = ({ faqItem, onClick, isOpen, blue }) => {
   const itemRef = useRef(null);
 
   return (
-    <li className={`${styles.accordion__item} ${faqItem.size ? styles.big : ''}`} >
+    <li className={`${styles.accordion__item} ${faqItem.size ? styles.bigF : ''} `} onClick={(e) => {
+      e.stopPropagation();
+    }}>
       <button
         className={`${styles.accordion__header} ${blue ? styles.blue : ''} ${faqItem.color === 'white' ? styles.white : ''} ${faqItem.color === 'blue' ? styles.darckblue : ''}`}
         onClick={() => onClick()}>
@@ -22,7 +24,7 @@ export const AccordionItem = ({ faqItem, onClick, isOpen, blue }) => {
         className={`${styles.accordin__collapse} `}
         style={
           isOpen ? { height: itemRef.current.scrollHeight } : { height: "0px" }} >
-        <div className={styles.accordion__body} ref={itemRef}>
+        <div className={`${styles.accordion__body} ${faqItem.size ? 'bigBody' : ''}`} ref={itemRef}>
           {faqItem.a}
         </div>
       </div>

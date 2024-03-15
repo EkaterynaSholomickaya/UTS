@@ -39,7 +39,7 @@ import 'swiper/css/navigation';
 import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
 
 const About = () => {
-
+    
   return (
     <div id='about' className={styles.about}>
       <div className="container">

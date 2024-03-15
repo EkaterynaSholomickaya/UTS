@@ -1,10 +1,30 @@
-.firstDay {
-  padding: 8% 0;
-  background-color: var(--second-blue);
-  margin-bottom: 8%;
+.firstDay__list {
+  list-style:inside;
 }
 
-.title__container {
+.firstDay__text {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  text-transform:uppercase;
+}
+.firstDay__text span {
+  color: var(--main-blue);
+  font-size: 24px;
+} 
+
+.firstDay {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+
+
+/* .firstDay {
+  background-color: var(--second-blue);
+} */
+
+/* .title__container {
   margin-bottom: 90px;
 }
 
@@ -296,3 +316,5 @@ display: none;
         font-size: 16px;
       }
 }
+
+*/

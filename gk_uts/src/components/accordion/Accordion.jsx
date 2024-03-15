@@ -11,7 +11,9 @@ export const Accordion = ({ faqList, blue }) => {
       {faqList.map((faqItem, id) => {
         return (
           <AccordionItem
-            onClick={() => (id === openId ? setId(null) : setId(id))}
+            onClick={(e) => {
+              (id === openId ? setId(null) : setId(id))
+            }}
             faqItem={faqItem}
             isOpen={id === openId}
             key={id}

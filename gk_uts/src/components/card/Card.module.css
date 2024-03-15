@@ -1,7 +1,9 @@
 .card {
   height: 330px;
   width: 400px;
-  background-color: var(--second-blue);
+  background: var(--second-blue);
+  /* background: rgb(9, 107, 180); */
+  /* background: linear-gradient(180deg, rgba(9, 107, 180, 1) 0%, rgba(3, 64, 134, 1) 100%); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +52,7 @@
   height: 116px;
   border-radius: 50%;
   border:2px solid var(--white);
-  background-color: var(--blue);
+  background: var(--main-blue);
   position:absolute;
   display: flex;
   justify-content: center;
@@ -72,7 +74,7 @@
   margin: 30px;
   text-align: center;
   color: var(--White, #FFF);
-  font-size: 24px;
+  /* font-size: 24px; */
   font-weight: 400;
   line-height: 150%;
 }

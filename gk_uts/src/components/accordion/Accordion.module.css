@@ -7,19 +7,23 @@
 
 .accordion__header {
   position: relative;
-  padding: 22px 60px;
+  /* padding: 22px 60px; */
   margin-bottom: 30px;
   width: 100%;
-  background-color: var(--white-blue);
+  background: var(--white-blue);
   border: 2px solid var(--grey);
   color: var(--dark-grey, #2F3338);
   font-size: 28px;
   font-weight: 700;
   line-height: 148.023%;
 }
+.bigF .accordion__header {
+    background: var(--white);
+    border: none;
+}
 
 .accordion__header.blue *, .accordion__header.blue {
-  background-color: var(--blue);
+  background: var(--blue);
   color: var(--white, #ffffff);
 }
 
@@ -37,12 +41,12 @@
 }
 
 .accordion__header.blue .according__arrow * {
-  fill: var(--white);
+  fill: var(--grey);
 }
 
 
 .accordion__body {
-  padding: 50px ;
+  /* padding: 50px ; */
   padding-top: 0;
   color: var(--grey-text, #242424);
   font-size: 24px;
@@ -153,22 +157,18 @@ span {
 }
 
 
-.big{
+.bigF{
   width: 100%;
   margin-bottom: 0;
 }
 
-.big>.accordion__header{
-  margin-bottom: 0;
-  padding: 50px;
-  border:none;
-}
-.big>.accordin__collapse>.accordion__body {
+
+.bigF>.accordin__collapse>.accordion__body {
   padding: 0px;
 }
 
 .darckblue {
-  background-color: var(--second-blue);
+  background: var(--second-blue);
 }
 
 
@@ -184,12 +184,33 @@ span {
 } */
 
 
-.big>.accordion__header>.according__arrow {
-  right: 50px;
+.bigF>.accordion__header>.according__arrow {
+  right: 20px;
+}
+.bigF>.accordion__header>.according__arrow *{
+  fill: #2F3338;
 }
 
 @media (max-width:1480px) {
-  .big>.accordion__header>.according__arrow {
+  .bigF>.accordion__header>.according__arrow {
       right: 25px;
     }
+}
+
+.bigF>.accordion__header:hover {
+  background-color: var(--white-blue);
+}
+.bigF>.accordion__header {
+  padding: 15px 10px 15px 10px;
+  margin-bottom: 0;
+  border: none;
+}
+.bigBody {
+  padding: 100px;
+}
+.accordion__body {
+  padding: 10px 0 50px;
+}
+.accordion__body.bigBody{
+  padding: 310px;
 }

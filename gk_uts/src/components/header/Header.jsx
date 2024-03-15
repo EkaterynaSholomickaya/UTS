@@ -24,7 +24,9 @@ function Header() {
 
             <nav
               className={`${styles.header__nav} ${isOpen ? styles.active : ''}`}
-              onClick={e => e.stopPropagation()} >
+              onClick={e => {
+                e.stopPropagation();
+              }} >
               <ul>
                 <li className={styles.header__link_first}>
                   <a href="#data"

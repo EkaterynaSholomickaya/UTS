@@ -1,7 +1,7 @@
 .offers__text {
   display: block;
   max-width: 1200px;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
   text-align: center;
   color: var(--dark-grey, #2F3338);
   font-size: 24px;
@@ -38,7 +38,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 150px;
+  margin-bottom: 60px;
 }
 
 .offer {
@@ -68,7 +68,7 @@
 
 @media (max-width: 1480px) {
 .offers__table {
-    margin-bottom: 10%;
+    margin-bottom: 8%;
   }
 .offer {
   width: auto;

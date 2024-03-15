@@ -19,10 +19,15 @@
 .data__text {
   max-width: 65%;
   color: var(--dark-grey, #2F3338);
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 150%;
 }
+.data__text p {
+  margin-bottom: 14px;
+}
+.data__text ol {
+  list-style-type:disc;
+  margin-left: 34px;
+}
+
 @media (max-width: 1400px) {
 .data {
     margin-bottom: 10%;

@@ -1,4 +1,41 @@
+.firstMonth__list {
+  list-style: inside;
+}
+.firstMonth__list li {
+  margin-bottom: 10px;
+}
+.firstMonth__secondlist_caption{
+    padding-left: 2%;
+    margin-top: 15px;
+}
+.firstMonth__secondlist {
+  padding-left: 2%;
+  list-style: decimal;
+}
+
+.firstMonth__questions {
+  width: 100%;
+  background-color: var(--white-blue);
+  font-weight: 800;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.firstMonth__questions_text {
+  color: var(--dark-grey);
+
+}
+.firstMonth__p {
+  margin-bottom: 15px;}
+
+/* .firstMonth__questions_text {
+margin-bottom: 510px;
+} */
+
 .firstMonth {
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+/* .firstMonth {
   
   padding: 3% 0;
 }
@@ -77,4 +114,4 @@
 
 @media (max-width:480px) {
 
-}
+} */

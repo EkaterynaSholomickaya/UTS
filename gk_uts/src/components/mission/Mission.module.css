@@ -1,12 +1,9 @@
 .mission {
   margin-bottom: 120px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
-.mission__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-}
 
 .cards:last-child {
   font-weight: 700;
@@ -14,11 +11,9 @@
 }
 
 .mission__text {
-  max-width: 65%;
+  margin-bottom: 90px;
+  max-width: 100%;
   color: var(--dark-grey, #2F3338);
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 150%;
 }
 
 .mission__text span {

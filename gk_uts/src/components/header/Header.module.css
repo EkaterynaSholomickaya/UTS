@@ -38,7 +38,7 @@
 .header__link_btn {
   padding: 8px 40px;
   color: var(--white);
-  background-color: var(--second-blue);
+  background: var(--second-blue);
   margin-left: 75px;
 }
 @media (max-width: 1480px) {
@@ -61,23 +61,23 @@
   .header__nav {
     position: absolute;
     z-index: 1;
-    top: -330px;
+    top: -430px;
     right: 0px;
   }
   .header__bg {
     opacity: 0;
     display: block; 
     top:71px;    
-    bottom: 0;
+    bottom: 100%;
     left: 0;
     right: 0;
     position: fixed;
     z-index: -10;    
     background-color: rgba(0, 0, 0,0.2); 
-    transition: all .5s;
-
+    transition: opacity .5s;
   }
   .header__bg.activeBg {
+    bottom: 0%;
     opacity: 1;
   }
   .header__nav.active {

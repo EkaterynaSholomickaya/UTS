@@ -1,3 +1,8 @@
 .first {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+}
+@media (min-width:1700px){
+.first {
+    margin-bottom: 60px;
+  }
 }
