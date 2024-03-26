@@ -24,6 +24,7 @@ body {
   --yellow:#FFCB00;
   --white-blue: #F1F5F6;
   --second-blue: linear-gradient(180deg, rgba(9, 107, 180, 1) 0%, rgba(3, 64, 134, 1) 100%);
+  --hover-blue: linear-gradient(180deg, rgba(3, 64, 134, 1) 0%, rgba(9, 107, 180, 1) 100%);
 }
 
 body.modalOpen {

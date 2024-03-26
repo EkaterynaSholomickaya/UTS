@@ -7,6 +7,7 @@ import Offers from './components/offers/Offers';
 import Questions from './components/questions/Questions';
 import Footer from './components/footer/Footer';
 import First from './components/first/First';
+import Form from './components/form/Form';
 
 
 function App() {
@@ -18,11 +19,11 @@ function App() {
       <Cards />
       <Data />
       <Facts />
-  <First />
+      <First />
       <Offers />
-    
       {/* <About /> */}
       <Questions />
+      <Form/>
       <Footer />
     </div>
   );

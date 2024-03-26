@@ -57,14 +57,12 @@ const value_items = [
 
 const Values = () =>
   <section className={styles.values}>
-    {/* <div className="container"> */}
       <div className={styles.values__title}>
         <Title align='center' >Наши ценности</Title>
       </div>
       {
         value_items.map(item => <Value img={item.img} text={item.text} title={item.title} />)
       }
-    {/* </div> */}
   </section>
 
 export default Values;

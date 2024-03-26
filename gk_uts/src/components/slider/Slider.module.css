@@ -140,10 +140,6 @@
 .slider {
     height: 350px;
   }
-  /* .nextSmall, .prevSmall {
-    height: 50px;
-    width: auto;
-  } */
 }
 
 @media (max-width:480px) {

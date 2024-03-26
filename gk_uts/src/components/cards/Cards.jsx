@@ -21,7 +21,6 @@ const card_items = [
   }
 ];
 
-// onClick={(e) => { console.log(e); }}
 
 const Cards = () => <div className={styles.cards}>
 
