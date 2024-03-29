@@ -1,5 +1,11 @@
 .data {
+  position: relative;
   margin-bottom: 120px;
+}
+.data__el {
+  position: absolute;
+  top: -83px;
+  width: 1px;
 }
 
 .data__container {
@@ -17,6 +23,7 @@
 }
 
 .data__text {
+  position: relative;
   max-width: 65%;
   color: var(--dark-grey, #2F3338);
 }
@@ -27,6 +34,8 @@
   list-style-type:disc;
   margin-left: 34px;
 }
+
+
 
 @media (max-width: 1400px) {
 .data {

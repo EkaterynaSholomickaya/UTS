@@ -13,7 +13,7 @@ const card_items = [
   },
   {
     img: secondImg,
-    text: ` Если у Вас возникнут вопросы, пожалуйста обращайтесь в отдел персонала   `
+    text: ` Если у Вас возникнут вопросы, пожалуйста, обращайтесь в отдел персонала   `
   },
   {
     img: thirdImg,
@@ -25,7 +25,7 @@ const card_items = [
 const Cards = () => <div className={styles.cards}>
 
   {
-    card_items.map(item => <Card img={item.img} text={item.text} />)
+    card_items.map((item,index) => <Card img={item.img} text={item.text} key={index} />)
   }
 
 </div>

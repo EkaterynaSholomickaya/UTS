@@ -111,10 +111,10 @@ const Form = () => {
 
 
   return (  
-  <div className="container">
+  <div className="container" >
       <div className={styles.content}>
         <div className={styles.left_side}>
-        <form  name="form" onSubmit={sendEmail} ref={form}>
+        <form  name="form" id='form' onSubmit={sendEmail} ref={form}>
             <div className={styles.input_box}>
               
               <input

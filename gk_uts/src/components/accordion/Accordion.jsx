@@ -12,6 +12,7 @@ export const Accordion = ({ faqList, blue }) => {
         return (
           <AccordionItem
             onClick={(e) => {
+
               (id === openId ? setId(null) : setId(id))
             }}
             faqItem={faqItem}

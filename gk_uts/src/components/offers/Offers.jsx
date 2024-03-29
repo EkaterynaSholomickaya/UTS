@@ -14,7 +14,7 @@ import eighth from '../../assets/icons/offers/8.svg';
 
 const Offers = () =>
   <section className={styles.offers}>
-
+    <div id='work' className={styles.offers__el}/>
     <div className="container">
       <div className={styles.offers__container}>
         <div className={styles.offers__text_container}>

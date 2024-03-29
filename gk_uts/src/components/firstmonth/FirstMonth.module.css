@@ -7,8 +7,11 @@
 .firstMonth__secondlist_caption{
     padding-left: 2%;
     margin-top: 15px;
+    margin-bottom: 25px;
+
 }
 .firstMonth__secondlist {
+  margin-top: 15px;
   padding-left: 2%;
   list-style: decimal;
 }
@@ -27,14 +30,21 @@
 .firstMonth__p {
   margin-bottom: 15px;}
 
-/* .firstMonth__questions_text {
-margin-bottom: 510px;
-} */
 
 .firstMonth {
   padding-bottom: 10px;
   padding-top: 50px;
 }
+.firstMonth__link {
+  color: var(--dark-grey);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* .firstMonth__questions_text {
+margin-bottom: 510px;
+} */
+
 /* .firstMonth {
   
   padding: 3% 0;

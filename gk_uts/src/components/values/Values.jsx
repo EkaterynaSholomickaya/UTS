@@ -61,7 +61,7 @@ const Values = () =>
         <Title align='center' >Наши ценности</Title>
       </div>
       {
-        value_items.map(item => <Value img={item.img} text={item.text} title={item.title} />)
+        value_items.map((item, index) => <Value img={item.img} text={item.text} title={item.title} key={index} />)
       }
   </section>
 

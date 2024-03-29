@@ -28,29 +28,25 @@ const Main = () => {
   }
 
   return (
-  <section className={styles.main}>
+  <section id="main" className={styles.main}>
 
     <div className={styles.main__container} >
+  
       <div className={styles.video}>
         <ReactPlayer 
-          className={styles.react_player}
-          url={video} 
-          loop={true} 
-          controls={false} 
-          volume={0} 
-          playsinline={true}
-          muted={true} 
-          playing={true}
-          width='100%' height='auto'/> 
-        </div>
+        url={video} 
+        loop={true} 
+        controls={false} 
+        volume={0} 
+        playsinline={true}
+        muted={true} 
+        playing={true}
+        width='100%' height='100%'/> 
       </div>
+        <div className={styles.main_poster}/>
+  
+    </div>
 
-
-    {/* <video autoPlay muted loop>
-      <source src={video} type="video/mp4"/>
-    </video> */}
-    {/* <iframe className={styles.main__video} src="https://www.youtube.com/embed/4Ls8lO__LC4?si=9VeUeBxsi6E07gFC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-    
     <div className={`container `}>
       <div className={styles.main__arrow}>
         {backToTop && <button onClick={scrollUp}>
@@ -68,12 +64,6 @@ const Main = () => {
           правилам и погрузиться в корпоративную культуру <span> ГК ЕТС </span>
         </p>
 
-        {/* <a href="#data" className={styles.main__link}>
-          <span>
-            Узнать больше
-          </span>
-          <img src={arrowImg} alt="arrow" />
-        </a> */}
       </div>
     </div>
 

@@ -1,3 +1,13 @@
+.offers {
+  position: relative;
+}
+
+.offers__el {
+  position: absolute;
+  top: -83px;
+  width: 1px;
+}
+
 .offers__text {
   display: block;
   max-width: 1200px;

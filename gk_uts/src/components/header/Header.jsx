@@ -2,8 +2,6 @@ import styles from './Header.module.css';
 import logoImg from '../../assets/icons/logo.png';
 import { useState, useEffect } from 'react';
 
-
-
 function Header() {
 
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +16,9 @@ function Header() {
       <div className="container">
         <div className={styles.header__row}>
           <div id="logo" className={styles.header__logo}>
-            <img src={logoImg} alt="logo" />
+            <a href="#main">
+              <img src={logoImg} alt="logo" />
+            </a>
           </div>
           <div>
 
